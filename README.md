@@ -50,10 +50,15 @@ pip install opencv-python numpy matplotlib
 
 **5) Final edge-detected veins
 
-   Input image           :    ![Hand Input](input.png)
+  ## Example
+
+  Input image:
+
+![Hand Input](input.png)
 
 
    Output (vein detection): ![Vein Detection Result](Figure_1.png)
+
 
 
 
