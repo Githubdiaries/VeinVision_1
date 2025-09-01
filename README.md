@@ -59,10 +59,6 @@ Input image: ![Hand Input](hand.jpg)
 Output (vein detection): ![Vein Detection Result](Figure_1.png)
 
 
-## 5. License
-
-This project is open-source under the MIT Licens
-
 
 
 
