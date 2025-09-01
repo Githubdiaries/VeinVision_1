@@ -50,12 +50,34 @@ pip install opencv-python numpy matplotlib
 5. Final edge-detected veins
 
 4. Example
-   
 
-Input image:
 
-Output (vein detection):
+
+
+   ## 4. Example
+
+**Input image:**  
+
+![Hand Input](hand.jpg)
+
+**Intermediate outputs:**  
+
+- **Green channel:**  
+  ![Green Channel](green_example.png)  ← replace with your actual file if available
+
+- **CLAHE + Blur result:**  
+  ![CLAHE + Blur](clahe_blur_example.png)  ← replace with your file
+
+**Final output (vein detection):**  
+
+![Vein Detection Result](Figure_1.png)
+
+
+Input image: hand.jpg
+
+Output (vein detection): Figure_1.png
 
 5. License
 
 This project is open-source under the MIT Licens
+
