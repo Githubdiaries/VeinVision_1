@@ -37,7 +37,7 @@ pip install opencv-python numpy matplotlib
   python trial.py
 
 
-3. The script displays 5 images:
+ 3. The script displays 5 images:
 
 1. Original image
 
@@ -80,5 +80,6 @@ Output (vein detection): Figure_1.png
 5. License
 
 This project is open-source under the MIT Licens
+
 
 
