@@ -26,3 +26,36 @@ Install dependencies:
 
 ```bash
 pip install opencv-python numpy matplotlib
+```
+
+3. Usage
+
+1. Place your hand image in the repository folder and name it hand.jpg.
+
+2. Run the script:
+
+  python trial.py
+
+
+3. The script displays 5 images:
+
+1. Original image
+
+2. Grayscale image
+
+3. Green channel extraction
+
+4. CLAHE + Gaussian blur result
+
+5. Final edge-detected veins
+
+4. Example
+   
+
+Input image:
+
+Output (vein detection):
+
+5. License
+
+This project is open-source under the MIT Licens
