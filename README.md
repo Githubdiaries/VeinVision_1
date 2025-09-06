@@ -25,7 +25,7 @@ VeinVision_1/
 The static.py script processes a single input image (static_input.png) to detect veins and saves the output as static_output.png. This mode is suitable for testing and demonstrations without requiring a camera.
 
 
-## Usage
+ Usage
 
 Place your input image in the repository directory and rename it to static_input.png.
 
@@ -37,11 +37,11 @@ python static.py
 The output will be saved as static_output.png.
 
 
-🎥 Live Video Capture
+## 🎥 Live Video Capture
 
 The live.py script captures live video from a webcam or IP camera, processes each frame to detect veins, and displays the original and processed images side by side. It also allows manual capture of images during the live session.
 
-## Features
+ Features
 
 Manual Capture: Press s to save the current frame and its processed version.
 
@@ -87,6 +87,7 @@ During live capture, the left side of the window displays the processed image (v
 The captures/ folder is created automatically during live capture to store images.
 
 Ensure that your camera is properly configured and accessible by OpenCV for live capture functionality.
+
 
 
 
