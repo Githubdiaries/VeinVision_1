@@ -1,4 +1,4 @@
-<img width="640" height="1280" alt="static_input (1)" src="https://github.com/user-attachments/assets/f7493a3b-9994-41f4-99c7-6d4ad3b0281b" />
+
 ## VeinVision_1
 
 VeinVision_1 is a Python-based project that utilizes OpenCV to detect and visualize veins in hand images. It offers both static image processing and live video capture modes, providing flexibility for various use cases.
@@ -77,7 +77,7 @@ The live.py script captures live video from a webcam or IP camera, processes eac
 ### 1. Static Image Processing
 Input image:
 
-![Input Example](static_input.png)
+<img width="640" height="1280" alt="static_input (1)" src="https://github.com/user-attachments/assets/f7493a3b-9994-41f4-99c7-6d4ad3b0281b" />
 
 Vein-detected output:
 
@@ -114,6 +114,7 @@ Example of combined original vs detected veins:
 The captures/ folder is created automatically during live capture to store images.
 
 Ensure that your camera is properly configured and accessible by OpenCV for live capture functionality.
+
 
 
 
