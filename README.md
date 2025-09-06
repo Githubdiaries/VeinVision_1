@@ -4,6 +4,7 @@ VeinVision_1 is a Python-based project that utilizes OpenCV to detect and visual
 
 ## 📂 Project Structure
 VeinVision_1/
+
 ├── compare.py          # Script to generate side-by-side comparisons
 ├── live.py             # Live video capture and vein detection
 ├── static.py           # Static image processing for vein detection
@@ -12,9 +13,11 @@ VeinVision_1/
 ├── captures/           # Folder for saving captured images (created during live capture)
 └── README.md           # Project documentation
 
+
 ## 🖼 Static Image Processing
 
 The static.py script processes a single input image (static_input.png) to detect veins and saves the output as static_output.png. This mode is suitable for testing and demonstrations without requiring a camera.
+
 
 ## Usage
 
@@ -26,6 +29,7 @@ python static.py
 
 
 The output will be saved as static_output.png.
+
 
 🎥 Live Video Capture
 
@@ -45,6 +49,7 @@ Python 3.x
 
 OpenCV (opencv-python)
 
+
 ## Usage
 
 Ensure your camera is connected and accessible.
@@ -58,6 +63,7 @@ Follow the on-screen instructions for capturing images.
 
 Captured images will be saved in the captures/ folder.
 
+
 ## 📷 Example Output
 Static Processing
 
@@ -69,8 +75,10 @@ During live capture, the left side of the window displays the processed image (v
 
 ![static_output.png] 
 
+
 📌 Notes
 
 The captures/ folder is created automatically during live capture to store images.
 
 Ensure that your camera is properly configured and accessible by OpenCV for live capture functionality.
+
