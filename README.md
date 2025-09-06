@@ -1,69 +1,76 @@
-# Vein Detection Using Computer Vision
+## VeinVision_1
 
-A Python project to **detect veins in a hand image** using OpenCV and image processing techniques. The repository demonstrates step-by-step processing, from input to edge-detected veins.
+VeinVision_1 is a Python-based project that utilizes OpenCV to detect and visualize veins in hand images. It offers both static image processing and live video capture modes, providing flexibility for various use cases.
 
----
+## 📂 Project Structure
+VeinVision_1/
+├── compare.py          # Script to generate side-by-side comparisons
+├── live.py             # Live video capture and vein detection
+├── static.py           # Static image processing for vein detection
+├── static_input.png    # Sample input image for static processing
+├── static_output.png   # Output image showing detected veins
+├── captures/           # Folder for saving captured images (created during live capture)
+└── README.md           # Project documentation
 
-##  Features
+## 🖼 Static Image Processing
 
-1. Converts the input image to **grayscale**.  
-2. Extracts the **green channel** for better vein visibility.  
-3. Applies **CLAHE (Contrast Limited Adaptive Histogram Equalization)** for contrast enhancement.  
-4. Uses **Gaussian blur** to reduce noise.  
-5. Performs **Canny edge detection** to highlight veins.  
-6. Displays all intermediate steps for visualization and debugging.
+The static.py script processes a single input image (static_input.png) to detect veins and saves the output as static_output.png. This mode is suitable for testing and demonstrations without requiring a camera.
 
----
+## Usage
 
-##  Requirements
+Place your input image in the repository directory and rename it to static_input.png.
 
-- Python 3.x  
-- OpenCV (`cv2`)  
-- NumPy  
-- Matplotlib  
+Run the script:
 
-Install dependencies:
-
-```bash
-pip install opencv-python numpy matplotlib
-```
-
-##  Usage
-
-1. Place your hand image in the repository folder and name it hand.jpg.
-
-2. Run the script:
-
-   python trial.py
+python static.py
 
 
-3. The script displays 5 images:
-   
+The output will be saved as static_output.png.
 
-**1) Original image
+🎥 Live Video Capture
 
-**2) Grayscale image
+The live.py script captures live video from a webcam or IP camera, processes each frame to detect veins, and displays the original and processed images side by side. It also allows manual capture of images during the live session.
 
-**3) Green channel extraction
+## Features
 
-**4) CLAHE + Gaussian blur result
+Manual Capture: Press s to save the current frame and its processed version.
 
-**5) Final edge-detected veins
+Auto Capture: Press 1 to start auto-capturing frames for 20 seconds.
 
-  ## Example
+Quit: Press q to exit the live capture.
 
- ![Vein Detection Result](static_output.png)
+## Requirements
+
+Python 3.x
+
+OpenCV (opencv-python)
+
+## Usage
+
+Ensure your camera is connected and accessible.
+
+Run the script:
+
+python live.py
 
 
+Follow the on-screen instructions for capturing images.
 
+Captured images will be saved in the captures/ folder.
 
+## 📷 Example Output
+Static Processing
 
+![outputs.png] 
 
+Live Capture
 
+During live capture, the left side of the window displays the processed image (veins highlighted), and the right side shows the original frame.
 
+![static_output.png] 
 
+📌 Notes
 
+The captures/ folder is created automatically during live capture to store images.
 
-
-
-
+Ensure that your camera is properly configured and accessible by OpenCV for live capture functionality.
