@@ -70,24 +70,49 @@ Follow the on-screen instructions for capturing images.
 Captured images will be saved in the captures/ folder.
 
 
-## 📷 Example Output
 
-Static Processing
+## Examples
 
-![outputs.png] 
+### 1. Static Image Processing
+Input image:
 
-*Live Capture
+![Input Example](static/static_input.png)
+
+Vein-detected output:
+
+![Output Example](static/static_output.png)
+
+---
+
+### 2. Live Capture
+Run the live script (`live/live.py`) to capture video from your phone camera or webcam.  
+
+Press `1` to start auto-capture for 20 seconds, or `s` for manual capture.  
+
+Captured images are saved in the `outputs/` folder.
 
 During live capture, the left side of the window displays the processed image (veins highlighted), and the right side shows the original frame.
 
-![static_output.png] 
+
+Example of combined original vs detected veins:
+
+![Combined Example](outputs/all_combined.png)
 
 
-📌 *Notes
+
+
+
+
+
+
+
+
+## 📌 Notes
 
 The captures/ folder is created automatically during live capture to store images.
 
 Ensure that your camera is properly configured and accessible by OpenCV for live capture functionality.
+
 
 
 
