@@ -96,7 +96,8 @@ During live capture, the left side of the window displays the processed image (v
 
 Example of combined original vs detected veins:
 
-![Combined Example](outputs.png)
+![Live eg<img width="1280" height="1440" alt="outputs" src="https://github.com/user-attachments/assets/cdf1f9d7-a333-4cf4-afe1-d384a1668afc" />
+]
 
 
 
@@ -112,6 +113,7 @@ Example of combined original vs detected veins:
 The captures/ folder is created automatically during live capture to store images.
 
 Ensure that your camera is properly configured and accessible by OpenCV for live capture functionality.
+
 
 
 
