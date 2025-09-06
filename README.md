@@ -54,10 +54,11 @@ pip install opencv-python numpy matplotlib
 
   Input image:
 
-![Hand Input](input.png)
+![Hand Input](static_input.png)
 
 
-   Output (vein detection): ![Vein Detection Result](Figure_1.png)
+   Output (vein detection): ![Vein Detection Result](static_output.png)
+
 
 
 
