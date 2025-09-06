@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# Allow captures folder so Git can see it
+!captures/
+
+# Track only these Python files
+!captures/densenet_live.py
+!captures/densenet_static.py
+!captures/densenet_utils.py
