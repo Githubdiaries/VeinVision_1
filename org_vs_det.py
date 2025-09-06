@@ -1,8 +1,8 @@
 import cv2
 import os
 
-# Folder containing images
-folder = "captures"
+# Folder containing images (relative to repo)
+folder = "samples"
 
 # Collect all original and vein files
 files = os.listdir(folder)
