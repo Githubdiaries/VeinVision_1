@@ -65,9 +65,9 @@ The live.py script captures live video from a webcam or IP camera, processes eac
    **python live.py**
 
 
-   Follow the on-screen instructions for capturing images.
+3. Follow the on-screen instructions for capturing images.
 
-   Captured images will be saved in the captures/ folder.
+4. Captured images will be saved in the captures/ folder.
 
 
 
@@ -89,15 +89,15 @@ Run the live script (`live/live.py`) to capture video from your phone camera or 
 
 Press `1` to start auto-capture for 20 seconds, or `s` for manual capture.  
 
-Captured images are saved in the `outputs/` folder.
+Captured images are saved in the `capture/` folder.
 
 During live capture, the left side of the window displays the processed image (veins highlighted), and the right side shows the original frame.
 
 
 Example of combined original vs detected veins:
 
-![Live eg<img width="1280" height="1440" alt="outputs" src="https://github.com/user-attachments/assets/cdf1f9d7-a333-4cf4-afe1-d384a1668afc" />
-]
+<img width="1280" height="1440" alt="outputs" src="https://github.com/user-attachments/assets/cdf1f9d7-a333-4cf4-afe1-d384a1668afc" />
+
 
 
 
@@ -113,6 +113,7 @@ Example of combined original vs detected veins:
 The captures/ folder is created automatically during live capture to store images.
 
 Ensure that your camera is properly configured and accessible by OpenCV for live capture functionality.
+
 
 
 
