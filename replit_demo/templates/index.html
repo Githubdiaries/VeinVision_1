@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VeinVision Demo</title>
+</head>
+<body>
+    <h2>VeinVision – Backend Prototype</h2>
+
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="image" required>
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if result %}
+        <h3>Enhanced Output</h3>
+        <img src="/static/output.jpg" width="300">
+    {% endif %}
+</body>
+</html>
